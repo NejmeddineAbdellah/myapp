@@ -1,5 +1,6 @@
-// Footer.js
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faGoogle, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 import styles from '../styles/Footer.module.css';
 
 const Footer = () => {
@@ -9,10 +10,25 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.socialMedia}>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
+       <div className={styles.socialMedia}>
+        <a href="#">
+          <FontAwesomeIcon icon={faFacebook} size="3x" />
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faTwitter} size="3x" />
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faInstagram} size="3x" />
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faGoogle} size="3x" />
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faLinkedin} size="4x" />
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faSkype} size="4x" />
+        </a>
       </div>
       <div className={styles.contactForm}>
         <form onSubmit={handleSubmit}>
