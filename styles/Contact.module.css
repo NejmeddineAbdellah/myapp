@@ -1,0 +1,50 @@
+/* styles/Contact.module.css */
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.inputField,
+.textareaField {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.inputField[name="fullName"],
+.inputField[name="email"] {
+  width: calc(50% - 5px);
+}
+
+.textareaField {
+  width: 100%;
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
