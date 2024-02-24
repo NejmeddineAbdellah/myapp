@@ -1,0 +1,83 @@
+/* Footer.module.css */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2E8544;
+  color: white;
+  margin-top: 2%;
+  padding: 20px;
+  bottom: 100%;
+}
+
+
+.socialMedia {
+  display: flex;
+}
+
+.socialMedia a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.contactForm {
+  width: 50%;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.contactForm h2 {
+  margin-bottom: 10px;
+}
+
+.contactDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputGroup {
+  width: 48%; /* Adjust width as needed */
+}
+
+.inputGroup label {
+  margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #fff;
+  color: #2E8544;
+  flex: 1; /* Equal height for both inputs */
+}
+
+.messageForm {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Equal height to contactDetails */
+}
+
+.messageForm label {
+  margin-bottom: 5px;
+}
+
+.messageForm textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #fff;
+  color: #2E8544;
+  flex: 1; /* Equal height to contactDetails */
+}
+
+.contactForm button {
+  background-color: #1E2E5C;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}

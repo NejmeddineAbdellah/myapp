@@ -1,0 +1,33 @@
+/* Header.module.css */
+
+.rect {
+  background-color: #1E2E5C;
+  color: white;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 0px; 
+  margin-bottom: 10px; 
+}
+
+.menu {
+  margin-left: auto; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px; 
+  padding: 8px 12px; 
+  border-radius: 50px;
+}
+
+.menu a.sign-in {
+  border: 2px solid white; 
+}
+
+.menu a.sign-up {
+  background-color: #2E8544; 
+}
